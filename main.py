@@ -10,4 +10,5 @@ cart.add_digital_video_disc(dvd1)
 cart.add_digital_video_disc(dvd2)
 cart.add_digital_video_disc(dvd3)
 
+print("=== AIMS PROGRAM VERSION 1.0 ===")
 cart.print_cart()

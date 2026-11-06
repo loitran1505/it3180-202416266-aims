@@ -25,3 +25,5 @@ class Cart:
             print(f"- {item.title} - {item.category} - {item.cost} $")
         print(f"Total cost: {self.total_cost():.2f} $")
         print("***************************************************")
+    def apply_discount(self, percentage):
+        return self.total_cost() * (1 - percentage / 100)

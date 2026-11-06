@@ -10,4 +10,4 @@ cart.add_digital_video_disc(dvd1)
 cart.add_digital_video_disc(dvd2)
 cart.add_digital_video_disc(dvd3)
 
-print(f"Total cost: {cart.total_cost():.2f} $")
+cart.print_cart()

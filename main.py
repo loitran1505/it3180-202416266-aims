@@ -1,5 +1,5 @@
-from dvd import DigitalVideoDisc
-from cart import Cart
+from aims.dvd import DigitalVideoDisc
+from aims.cart import Cart
 
 cart = Cart()
 dvd1 = DigitalVideoDisc("The Lion King", "Animation", 19.95)
